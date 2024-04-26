@@ -6,10 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class Winner : MonoBehaviour
 {
-    public string sceneName;
-
-    private void OnTriggerEnter2D(Collider2D other)
+    void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(3);
     }
+  
 }
