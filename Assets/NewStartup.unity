@@ -626,7 +626,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4fec4b06ba3acbb46bd6bc4a3f9d12b7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: 
+  sceneName: WinnerControl
 --- !u!1 &267976056
 GameObject:
   m_ObjectHideFlags: 0
