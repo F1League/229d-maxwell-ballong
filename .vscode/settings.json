@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "FINAL.sln"
+    "dotnet.defaultSolution": "229d-maxwell-ballong.sln"
 }
