@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
 public class coins : MonoBehaviour
 {
      public int value;
-    
+     
     void Start()
     {
         
@@ -21,6 +20,7 @@ public class coins : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             Destroy(gameObject);
+            
             
             Counter.instance.IncreaseCoins(value);
         }
