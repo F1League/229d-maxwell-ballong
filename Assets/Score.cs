@@ -5,10 +5,16 @@ using UnityEngine;
 
 public class Score : MonoBehaviour
 {
+
     public TMP_Text ScoreText;
     // Start is called before the first frame update
     void Start()
     {
+        {
+          
+            
+        }
+        
         Collider2D c;
         if (!GetComponent<Collider2D>())
         {
@@ -21,8 +27,8 @@ public class Score : MonoBehaviour
     }
     void OnTriggerEnter2D(Collider2D other)
     {
-            GameManager1.nScore ++;
-            ScoreText.text = "Score : " + GameManager1.nScore ;
+            Gamemanager.nScore ++;
+            ScoreText.text = "Score : " + Gamemanager.nScore ;
             Destroy(gameObject);
 
 
